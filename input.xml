@@ -1,0 +1,54 @@
+<config>
+    <comment>
+        <line>Это однострочный комментарий</line>
+    </comment>
+    <comment>
+        <line>Это многострочный</line>
+        <line>комментарий</line>
+    </comment>
+    <constant name="num">
+        <value type="integer">10</value>
+    </constant>
+    <constant name="str">
+        <value type="string">Hello World!</value>
+    </constant>
+    <constant name="num">
+        <value type="integer">
+            <expression operation="add">
+                <operands>
+                    <operand>num</operand>
+                    <operand>5</operand>
+                </operands>
+            </expression>
+        </value>
+    </constant>
+    <constant name="num">
+        <value type="integer">
+            <expression operation="abs">
+                <operands>
+                    <operand>-20</operand>
+                </operands>
+            </expression>
+        </value>
+    </constant>
+
+    <constant name="numbers">
+        <value type="integer">
+            <array>
+                <item>1</item>
+                <item>2</item>
+                <item>3</item>
+                <item>4</item>
+            </array>
+        </value>
+    </constant>
+    <constant name="strings">
+        <value type="string">
+            <array>
+                <item>a</item>
+                <item>b</item>
+                <item>c</item>
+            </array>
+        </value>
+    </constant>
+</config>

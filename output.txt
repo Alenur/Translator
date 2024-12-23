@@ -1,0 +1,11 @@
+\ Это однострочный комментарий
+=begin
+Это многострочный
+комментарий
+=cut
+num is 10
+str is "Hello World!"
+num is $+ num 5$
+num is $abs -20$
+numbers is << 1, 2, 3, 4 >>
+strings is << "a", "b", "c" >>
